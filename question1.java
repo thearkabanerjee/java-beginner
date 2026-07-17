@@ -10,6 +10,6 @@ public class question1 {
 
         System.out.println ("the sum is "+ age);
 
-
+        sc.close();
     }
 }
