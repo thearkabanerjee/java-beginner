@@ -10,7 +10,7 @@ public class function {
     }
 
 
-    static String nameprinter(String name){
+    public static String nameprinter(String name){
         return ("Hi, "+ name);
     }
 }
