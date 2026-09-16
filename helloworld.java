@@ -8,6 +8,6 @@ public class helloworld{
 
     public static String returnname (String name){
         return ("hey my name is "+ name); 
-    // this returns the name of the user 
+        // this returns the name of the user 
     }
 }
