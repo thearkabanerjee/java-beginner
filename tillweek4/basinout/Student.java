@@ -1,6 +1,4 @@
-package tillweek4.basinout;
-
-public class Student{
+public class Student {
 
   String name;
   int age;
@@ -8,8 +6,7 @@ public class Student{
   char grade;
   boolean passed;
 
-
-  void displayInfo(){
+  void displayInfo() {
     System.out.printf("name: %s%nAge: %d%nMarks: %f%ngrade: %c%npassed: %b%n", name, age, marks, grade, passed);
   }
 }

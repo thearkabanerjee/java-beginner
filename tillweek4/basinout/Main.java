@@ -1,5 +1,3 @@
-package tillweek4.basinout;
-
 import java.util.*;
 
 public class Main {
@@ -14,5 +12,6 @@ public class Main {
     student.passed = sc.nextBoolean();
 
     student.displayInfo();
+    sc.close();
   }
 }
