@@ -1,7 +1,9 @@
+package tillweek4.basinout;
+
 import java.util.*;
 
-public class Main{
-  public static void main(String[] args){
+public class Main {
+  public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     Student student = new Student();
 
@@ -10,7 +12,6 @@ public class Main{
     student.marks = sc.nextFloat();
     student.grade = sc.next().charAt(0);
     student.passed = sc.nextBoolean();
-
 
     student.displayInfo();
   }

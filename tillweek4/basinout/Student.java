@@ -1,3 +1,5 @@
+package tillweek4.basinout;
+
 public class Student{
 
   String name;
